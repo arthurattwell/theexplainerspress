@@ -20,4 +20,4 @@ Then to serve the website on your computer, run `bundle exec jekyll serve` in th
 
 ## Hosting and deployment
 
-The [theexplainerspress.co.za](https://theexplainerspress.co.za) is hosted on GitHub Pages, which deploys the master branch.
+The [theexplainerspress.co.za](https://theexplainerspress.co.za) is hosted on GitHub Pages, which deploys the `live` branch.
