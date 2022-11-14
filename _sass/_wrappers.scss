@@ -1,0 +1,19 @@
+.wrapper {
+    margin: auto;
+    padding: 1rem;
+}
+
+@mixin constrain-text-width($width: $max-width) {
+    & > p,
+    & > ul,
+    & > dl {
+        max-width: $max-width;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.footer {
+    background-color: $color-bg;
+    min-height: 1rem;
+}

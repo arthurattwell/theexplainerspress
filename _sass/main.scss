@@ -1,0 +1,31 @@
+// Sizes
+$max-width: 60rem;
+$line-height: 1.6;
+$border-radius: 0.1rem;
+$modal-border-radius: 1rem;
+$rule-thickness: 2px;
+$curve: 4rem;
+
+// Fonts
+$font-main: 'Spectral', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$font-variable-main: 'Spectral', $font-main;
+
+// Colours
+$color-bg: #f9f9f9;
+$color-text: #262626;
+$color-text-reversed: #f9f9f9;
+
+// Break points
+$break-width-small: 600px;
+$break-width-medium: 900px;
+$break-width-large: 1200px;
+
+// Import font
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+// Import styles. This order matters.
+@import 'reset';
+@import 'type';
+@import 'wrappers';
+@import 'layout';
+@import 'features';
